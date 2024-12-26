@@ -1,0 +1,2 @@
+Hey this is my first text file using python file IO
+Hey this is my second line of text file using python file IO

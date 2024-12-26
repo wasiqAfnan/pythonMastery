@@ -1,0 +1,1 @@
+This msg is written using writelines() method
