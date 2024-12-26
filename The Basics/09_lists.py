@@ -9,6 +9,11 @@ fruits[1] = "banana"
 fruits[2] = "orange"
 print(fruits)
 
+# traversing list
+for fruit in fruits:
+    print(fruit)
+
+
 # List methods
 colors = ["red", "green", "blue"]
 colors.append("yellow") # add an element to the end of the list
