@@ -69,4 +69,13 @@ obj.access_private()  # Accessing private members via a public method
 # Accessing private members using name mangling (not recommended):
 print(obj._PrivateExample__secret)  # Output: Private Attribute
 
+# very important
+'''
+Can Private Members Be Inherited?
+Directly: No. Private members are not directly inherited because they are prefixed with
+the class name during name mangling.
+Indirectly: Yes, subclasses can access private members through public or protected methods 
+of the parent class.
+'''
+
 
