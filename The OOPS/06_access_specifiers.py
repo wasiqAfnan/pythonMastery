@@ -68,6 +68,7 @@ obj.access_private()  # Accessing private members via a public method
 # print(obj.__secret)  # AttributeError
 # Accessing private members using name mangling (not recommended):
 print(obj._PrivateExample__secret)  # Output: Private Attribute
+print(obj._PrivateExample__private_method())  # Output: This is a private method.
 
 # very important
 '''
