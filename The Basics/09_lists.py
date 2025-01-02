@@ -2,6 +2,7 @@
 # lists can contain any type of data
 # lists are indexed starting from 0
 
+
 # List declaration
 fruits = ["apple", "banana", "orange"]
 fruits[0] = "apple"

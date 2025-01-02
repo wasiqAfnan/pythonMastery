@@ -29,7 +29,7 @@ print(calc.add(5, 10, 15, 20))   # Adds 5 + 10 + 15 + 20
 # example using kwargs
 def addKwargs(**kwargs):
     total = 0
-    for key, value in kwargs.items():
+    for value in kwargs.values():
         total+=value
     return total
 

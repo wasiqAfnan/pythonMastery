@@ -1,7 +1,7 @@
 # selection sort
 num = [5, 2, 8, 1, 9]
 
-for i in range(len(num) - 1):
+for i in range(len(num)):
     min_index = i
     for j in range(i + 1, len(num)):
         if num[j] < num[min_index]:

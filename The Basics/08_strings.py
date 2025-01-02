@@ -1,5 +1,6 @@
 # string in python is a sequence of characters.
-# string can be enclosed in single quotes ('') or double quotes ("") or triple quotes ("""""").
+# string can be enclosed in single quotes ('') or double quotes ("") or
+# triple double(""" """)/single(''' ''') quotes .
 
 # String declaration using single quotes
 name = 'Wasiq Afnan Ansari'
@@ -18,7 +19,9 @@ print(name)
 # String concatenation
 name = "Wasiq Afnan"
 surname = "Ansari"
+fullName = name + surname
 print(name + " " + surname)
+print(fullName)
 
 # String interpolation
 first_name = "Wasiq Afnan"
@@ -29,7 +32,7 @@ print(f"{first_name} {last_name}")
 name = "Wasiq Afnan Ansari"
 print(name[0:5]) # Wasiq
 print(name[5:10]) # Afna
-print(name[10:15]) # n Ansari
+print(name[10:15]) # n Ans
 print(name[15:]) # ari
 
 # Negative indexing
@@ -50,9 +53,9 @@ print(name.strip()) # Wasiq Afnan Ansari
 print(name.replace("Afnan", "Afnan-1")) # Wasiq Afnan-1 Ansari
 print(name.split()) # ['    Wasiq ', ' Afnan ', ' Ansari    ']
 print(",".join(name.split())) # Wasiq,Afnan,Ansari
-print(name.find("Afnan")) # 10
-print(name.count("Afnan")) # 1
-print(name.index("Afnan")) # 10
+print(name.find("a")) # 2 Case sensitive 'A' and 'a' are different
+print("count: ",name.count("A")) # 2 case sensitive also
+print("Index: ",name.index("A")) # 10
 print(name.startswith("Afnan")) # False
 print(name.endswith("Afnan")) # False
 print(name.capitalize()) # Wasiq afnan ansari

@@ -7,17 +7,21 @@ strict access controls to implement them.
 
 '''
 1. Public Access
-Definition: Attributes and methods with public access can be accessed from anywhere—inside or outside the class.
+Definition: Attributes and methods with public access can be accessed from anywhere—inside
+or outside the class.
 Implementation: By default, all attributes and methods in Python are public.
 
 2. Protected Access
-Definition: Attributes and methods with protected access can only be accessed within the class and its subclasses. In Python, this is a convention indicated by a single underscore _attribute.
+Definition: Attributes and methods with protected access can only be accessed within 
+the class and its subclasses. In Python, this is a convention indicated by a single 
+underscore _attribute.
 Implementation: Use a single underscore (_) before the attribute or method name.
 
 3. Private Access
-Definition: Attributes and methods with private access can only be accessed from within the class itself.
-Implementation: To define a private attribute or method, prefix the name with a double underscore (__).
-Private attributes and methods cannot be accessed from outside the class.
+Definition: Attributes and methods with private access can only be accessed from within the
+class itself.
+Implementation: To define a private attribute or method, prefix the name with a double 
+underscore (__). Private attributes and methods cannot be accessed from outside the class.
 '''
 
 # example of public access

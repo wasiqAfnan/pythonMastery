@@ -132,5 +132,8 @@ x = 5
 y = 10
 print("Ternary Operator")
 greater = x if x > y else y
+res = "even number" if x%2 == 0 else "odd number"
 print(f"greater = {greater}") # greater = 10
+print(res)
 
+print(10)

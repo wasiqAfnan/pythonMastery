@@ -18,7 +18,7 @@ obj1.print_info()
 
 del obj1
 
-# below 2 lines will raise name error as we deleted the object
+# below 2 lines will raise NameError as we deleted the object
 # print(obj1.name)
 # print(obj1.age)
 
