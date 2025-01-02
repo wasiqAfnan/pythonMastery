@@ -23,8 +23,8 @@ print(pi) # prints the value of pi
 from math import *
 print(pi) # prints the value of pi
 print(sqrt(25)) # prints the square root of 25
-print(sin(pi/2)) # prints the sine of pi/2
-print(cos(pi)) # prints the cosine of pi
+print("Sin(pi/2): ",sin(pi/2)) # prints the sine of pi/2 is 1.0
+print("Cos(pi): ",cos(pi)) # prints the cosine of pi is -1.0
 
 # importing a module using alias
 import math as m
