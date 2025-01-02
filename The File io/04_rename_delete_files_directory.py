@@ -13,4 +13,4 @@ os.rename('newfile.txt', 'new_file.txt')
 # delete a file
 os.remove('new_file.txt')
 # delete a directory
-os.rmdir('old_directory')
+#os.rmdir('old_directory')
