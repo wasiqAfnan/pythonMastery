@@ -10,4 +10,6 @@ class Child(Parent):
         print("Child class method")  # Overriding the parent method
 
 child = Child()
+parent = Parent()
 child.show()  # Output: Child class method
+parent.show()  # Output: Parent class method

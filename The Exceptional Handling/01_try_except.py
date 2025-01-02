@@ -34,4 +34,6 @@ Common types of Exceptions:
 - IndexError: raised when an index is out of range.
 - KeyError: raised when a key is not found in a dictionary.
 - FileNotFoundError: raised when a file is not found.
+- AttributeError: occurs when you try to access or modify an attribute 
+(like a variable or function) that doesn't exist for the object you're working with
 '''

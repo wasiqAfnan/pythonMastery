@@ -21,6 +21,18 @@ class Calculator:
 
 # Example usage
 calc = Calculator()
-print(calc.add(5))               # Adds 5
+print(calc.add(5))                     # Adds 5
 print(calc.add(5, 10))           # Adds 5 + 10
 print(calc.add(5, 10, 15, 20))   # Adds 5 + 10 + 15 + 20
+
+
+# example using kwargs
+def addKwargs(**kwargs):
+    total = 0
+    for key, value in kwargs.items():
+        total+=value
+    return total
+
+print(addKwargs(a=5, b=10, c=15))  # Output: 30
+print(addKwargs(a=5))  # Output: 5
+print(addKwargs(a=5, b=20))  # Output: 25

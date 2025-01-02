@@ -23,6 +23,10 @@ cat = Cat()
 make_sound(dog)  # Output: Bark
 make_sound(cat)  # Output: Meow
 
+# we can also call methods directly
+dog.sound()  # Output: Bark
+cat.sound()  # Output: Meow
+
 # explaination
 '''
 The function make_sound(animal) is defined to take an object (animal) as an argument.
