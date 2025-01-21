@@ -14,3 +14,4 @@ class C(B,A):
 obj = C()
 #obj.someFunc()
 print(C.mro())
+# output: [<class '__main__.C'>, <class '__main__.B'>, <class '__main__.A'>, <class 'object'>]
