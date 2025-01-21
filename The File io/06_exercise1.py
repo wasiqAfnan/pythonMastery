@@ -6,3 +6,6 @@ for line in content:
 	file2.write(line)
 content2 = file2.read()
 print(content2)
+
+file.close()
+file2.close()
