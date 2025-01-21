@@ -1,7 +1,7 @@
 # print no of lines, words and char in a file
 
 with open("file1.txt","r") as file:
-    word = 0; line = 1; characrter = 0
+    word = 0; line = 1; character = 0
     content = file.read()
     lines = content.split("\n") # spliiting lines
     words = content.split() # splitting words
